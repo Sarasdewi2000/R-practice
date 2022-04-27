@@ -76,3 +76,13 @@ kota
 
 list_satu <- list(1, "Online", TRUE )
 list_satu[1]
+
+#dataframe
+
+fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
+jumlah_mahasiswa <- c(260, 28, 284, 465, 735)
+akreditasi <- c("A","A","B","A","A")
+
+info_mahasiswa <- data.frame (fakultas, jumlah_mahasiswa, akreditasi)
+
+info_mahasiswa
