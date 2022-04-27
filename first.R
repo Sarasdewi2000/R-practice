@@ -73,3 +73,6 @@ kota <- list(nama_kota = "Makassar", propinsi = "Sulawesi Selatan", luas_km2 = 1
 
 # Tampilkan isi variable list kota
 kota
+
+list_satu <- list(1, "Online", TRUE )
+list_satu[1]
