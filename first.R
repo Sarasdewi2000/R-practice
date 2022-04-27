@@ -39,3 +39,20 @@ c(1:10)
 bebek <- c(1:10)
 print(bebek[5]))
 print(bebek[[1:5]])
+
+kode_prodi <- c("DKV","ILKOM","ICT") # Buat vector teks dengan nama kode_prodi yang diisi sesuai petunjuk soal
+
+print (kode_prodi[3])# Tampilkan isi indeks ketiga dari kode_prodi
+
+#Membuat named vector dengan nama nilai
+nilai <- c(statistik = 89, fisika = 95, ilmukomunikasi = 100)
+
+#Menampilkan isi variable nilai
+print(nilai)
+
+print (nilai["fisika"])#Menampilkan isi dengan nama fisika
+
+profil <- c(nama = "Budi", tempat_tinggal = "Jakarta", tingkat_pendidikan = "S1")#Buat variable profil sesuai permintaan soal
+
+print(profil) #Tampilkan variable profil
+
