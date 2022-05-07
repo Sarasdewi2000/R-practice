@@ -11,3 +11,20 @@ first <- c("saras"); last <- c("wati")
 [1] "wati"
 > paste(first,last)
 [1] "saras wati"
+
+> testlist <- list("Saras", 1, 2, "tiga")
+> testlist
+[[1]]
+[1] "Saras"
+
+[[2]]
+[1] 1
+
+[[3]]
+[1] 2
+
+[[4]]
+[1] "tiga"
+
+> print(class(testlist))
+[1] "list"
